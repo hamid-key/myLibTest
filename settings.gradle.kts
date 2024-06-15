@@ -16,12 +16,7 @@ dependencyResolutionManagement {
     repositories {
         mavenCentral()
         maven { url  = uri("https://jitpack.io") }
-        maven{
-            url = uri("https://sonatype.k8s.local.applinker.io/repository/Android/")
-            isAllowInsecureProtocol = true
-        }
         google()
-        mavenCentral()
     }
 }
 
