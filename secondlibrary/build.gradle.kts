@@ -43,17 +43,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-}
+    implementation("com.github.hamid-key.myLibTest:mylibrary:1.0.3")
 
-afterEvaluate {
-    publishing {
-        publications {
-            create<MavenPublication>("release") {
-                from(components["release"])
-                groupId = "com.github.hamid-key"
-                artifactId = "secondlibrary"
-                version = "1.0.3"
-            }
-        }
-    }
 }
