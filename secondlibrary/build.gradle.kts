@@ -51,8 +51,8 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
                 groupId = "com.github.hamid-key"
-                artifactId = "mylibrary"
-                version = "1.0.2"
+                artifactId = "secondlibrary"
+                version = "1.0.3"
             }
         }
     }
