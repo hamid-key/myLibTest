@@ -1,12 +1,10 @@
-package com.example.librarytest
+package com.example.mylibrary3
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.secondlibrary.SecondTestClass
-import com.hamid.mylibrary.TestClass
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +16,6 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        println(SecondTestClass::class.java.simpleName)
     }
+    //commit 1
 }

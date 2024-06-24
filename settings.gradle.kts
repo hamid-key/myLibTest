@@ -24,3 +24,6 @@ rootProject.name = "LibraryTest"
 include(":app")
 include(":mylibrary")
 include(":secondlibrary")
+include(":app:mylibrary3")
+include(":secondlibrary:nested1")
+include(":secondlibrary:nested2")
